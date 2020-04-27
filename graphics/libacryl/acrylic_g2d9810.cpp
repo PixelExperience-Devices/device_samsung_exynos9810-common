@@ -879,9 +879,7 @@ bool AcrylicCompositorG2D9810::executeG2D(int fence[], unsigned int num_fences, 
         bool alpha_premult = (layer.getCompositingMode() == HWC_BLENDING_PREMULT)
                              || (layer.getCompositingMode() == HWC2_BLEND_MODE_PREMULTIPLIED);
         mHdrWriter.setLayerImageInfo(i, layer.getFormat(), alpha_premult);
-
-        if (layer.getLayerData())
-            mHdrWriter.setLayerOpaqueData(i, layer.getLayerData(), layer.getLayerDataLength());
+        mHdrWriter.setLayerOpaqueData(i, layer.getLayerData(), layer.getLayerDataLength());
     }
 
     mHdrWriter.setTargetInfo(getCanvas().getDataspace(), getTargetDisplayInfo());

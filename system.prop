@@ -7,6 +7,9 @@ ro.vendor.cscsupported=1
 ro.cmc.device_type=pd
 ro.cmc.version=2.0
 
+### System
+persist.sys.binary_xml=false
+
 ### CHARGER
 ro.charger.enable_suspend=true
 

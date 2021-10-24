@@ -10,6 +10,9 @@ ro.cmc.version=2.0
 ### System
 persist.sys.binary_xml=false
 
+# RIL
+persist.sys.fflag.override.settings_provider_model=false
+
 ### CHARGER
 ro.charger.enable_suspend=true
 

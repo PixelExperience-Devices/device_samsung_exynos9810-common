@@ -72,7 +72,6 @@ ro.soc.manufacturer=Samsung
 ro.soc.model "Exynos 9810"
 
 ### SURFACEFLINGER
-debug.sf.latch_unsignaled=1
 debug.sf.recomputecrop=0
 
 ### GRAPHICS

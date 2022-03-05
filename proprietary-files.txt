@@ -141,13 +141,15 @@ vendor/etc/sensor/lhd.conf
 -vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 
 # Graphics/Mali
+-vendor/etc/snap_gpu_kernel_64.bin|312f56def4e6768b954011e7b41ed3e79dd61fc3
 -vendor/bin/bcc_mali
--vendor/lib/egl/libGLES_mali.so
+-vendor/lib/egl/libGLES_mali.so|8934ddf7e9ea79445dfd89e72e521263adf70ca4
 vendor/lib/libmalicore.bc
--vendor/lib64/egl/libGLES_mali.so
+-vendor/lib64/egl/libGLES_mali.so|6788f5cf4fabb45c51c2c66b6ab4d28b3f94a8ef
 -vendor/lib64/libLLVM_android_mali.so
 -vendor/lib64/libbcc_mali.so
 vendor/lib64/libmalicore.bc
+-vendor/lib64/libgpudataproducer.so|89e0d2aa05d2fc47822a980e5946840ec66e9597
 
 # Ion - N770FXXS7DUB1
 -vendor/lib/libion_exynos.so|3c572746de4a1c5503000ccab511b8da

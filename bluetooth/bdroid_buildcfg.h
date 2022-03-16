@@ -29,10 +29,18 @@ static inline const char* getBTDefaultName()
     property_get("ro.product.device", device, "");
 
     if (!strcmp("crownlte", device)) {
-        return "Galaxy note 9";
+        return "Galaxy Note 9";
     }
-    
-    return "Galaxy S9";
+
+    if (!strcmp("star2lte", device)) {
+        return "Galaxy S9+";
+    }
+
+    if (!strcmp("starlte", device)) {
+        return "Galaxy S9";
+    }
+
+    return "Samsung Galaxy";
 }
 
 #define BTM_DEF_LOCAL_NAME getBTDefaultName()

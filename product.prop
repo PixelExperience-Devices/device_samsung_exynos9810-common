@@ -6,3 +6,6 @@ persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
 # IORap app launch prefetching using Perfetto traces and madvise
 iorapd.readahead.enable=true
+
+# RCS
+persist.rcs.supported=1

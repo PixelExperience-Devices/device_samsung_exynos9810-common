@@ -49,6 +49,7 @@ ro.soc.model "Exynos 9810"
 
 ### SURFACEFLINGER
 debug.sf.latch_unsignaled=1
+debug.sf.recomputecrop=0
 
 # Enable wide gamut and color management
 ro.surface_flinger.has_wide_color_display=true

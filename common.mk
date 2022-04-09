@@ -159,6 +159,10 @@ $(call inherit-product-if-exists, vendor/lawnicons/overlay.mk)
 PRODUCT_PACKAGES += \
     android.hardware.light-service.samsung
 
+# Livedisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service.samsung-exynos
+
 # OMX
 PRODUCT_PACKAGES += \
     libepicoperator

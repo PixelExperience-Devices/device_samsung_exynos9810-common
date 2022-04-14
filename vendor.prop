@@ -19,6 +19,11 @@ ro.fastbootd.available=true
 persist.sys.sf.color_saturation=1.0
 persist.sys.sf.native_mode=2
 
+### MEDIA
+debug.stagefright.ccodec=0
+debug.stagefright.omx_default_rank=0
+debug.stagefright.omx_default_rank.sw-audio=1
+
 ### KEYSTORE
 ro.hardware.keystore=mdfpp
 

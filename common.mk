@@ -113,7 +113,9 @@ PRODUCT_PACKAGES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.0.vendor
+    android.hardware.gnss.measurement_corrections@1.1.vendor \
+    android.hardware.gnss@2.0.vendor \
+    android.hardware.gnss@2.1.vendor
 
 # HIDL
 PRODUCT_PACKAGES += \

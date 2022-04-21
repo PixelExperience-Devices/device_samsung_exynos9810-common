@@ -30,7 +30,7 @@
 	</path>
 
 	<path name="gain-media-dual-speaker">
-		<ctl name="SPK Analog Left Gain" value="15dB" />
+		<ctl name="SPK Analog Left Gain" value="12dB" />
 		<ctl name="SPK Analog Right Gain" value="15dB" />
 	</path>
 

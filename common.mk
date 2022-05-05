@@ -146,6 +146,9 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
     android.hardware.keymaster@3.0-impl
 
+# Lawnicons
+$(call inherit-product-if-exists, vendor/lawnicons/overlay.mk)
+
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.light-service.samsung

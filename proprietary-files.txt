@@ -305,11 +305,11 @@ vendor/openvx/xml/_hifi_still_schedule.xml
 
 # Sensors
 vendor/etc/sensors/hals.conf
--vendor/lib/sensors.bio.so
--vendor/lib/sensors.grip.so
+-vendor/lib/sensors.grip.so|6f991b69ff93abfa51cac14547c0fedc
+-vendor/lib/sensors.sensorhub.so|34644ad0274c34eb88db0548f648fd92
 -vendor/lib64/libflicker.so
--vendor/lib64/sensors.bio.so
--vendor/lib64/sensors.grip.so
+-vendor/lib64/sensors.grip.so|d2ca95c5c1b0819bb98ecef199573f62
+-vendor/lib64/sensors.sensorhub.so|63225b8e031ed89895796696b22e1ee6
 
 # Widevine
 -vendor/bin/hw/android.hardware.drm@1.2-service.widevine

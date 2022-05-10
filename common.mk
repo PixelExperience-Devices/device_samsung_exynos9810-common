@@ -277,7 +277,6 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libshim_audioparams \
     libshim_sensorndkbridge \
     libdemangle.vendor
 

@@ -9,7 +9,6 @@ vendor/etc/usb_audio_policy_configuration.xml
 -vendor/lib/lib_soundaliveresampler.so
 -vendor/lib/libaboxpcmdump.so
 -vendor/lib/libalsautils_sec.so
--vendor/lib/libaudio_soundtrigger.so
 -vendor/lib/libaudiodebugfs.so
 -vendor/lib/libcodecdspdump.so
 -vendor/lib/libdatamod.so

@@ -310,6 +310,10 @@ vendor/etc/sensors/hals.conf
 -vendor/lib64/sensors.grip.so|d2ca95c5c1b0819bb98ecef199573f62
 -vendor/lib64/sensors.sensorhub.so|63225b8e031ed89895796696b22e1ee6
 
+# Thermal
+vendor/lib/hw/thermal.exynos9810.so
+vendor/lib64/hw/thermal.exynos9810.so
+
 # Widevine
 -vendor/bin/hw/android.hardware.drm@1.2-service.widevine
 -vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service

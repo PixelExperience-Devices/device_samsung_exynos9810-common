@@ -271,6 +271,16 @@
         <fqname>@1.1::ISehSnap/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>android.hardware.thermal</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IThermal</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IThermal/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.samsung.hardware.tlc.ucm</name>
         <transport>hwbinder</transport>
         <version>2.0</version>

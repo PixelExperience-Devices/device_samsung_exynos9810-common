@@ -89,10 +89,6 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml
 endif
 
-# Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:32 \

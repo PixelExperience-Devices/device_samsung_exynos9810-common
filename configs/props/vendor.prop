@@ -61,11 +61,6 @@ ro.soc.model "Exynos 9810"
 debug.sf.latch_unsignaled=1
 debug.sf.recomputecrop=0
 
-### VULKAN
-ro.hwui.use_vulkan=true
-graphics.gpu.profiler.support=true
-debug.hwui.renderer=skiavk
-
 ### GRAPHICS
 
 # HARDWARE

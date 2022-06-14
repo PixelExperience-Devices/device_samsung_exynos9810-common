@@ -229,10 +229,6 @@ vendor/etc/init/mobicore.rc
 -vendor/lib/hw/power.exynos9810.so
 -vendor/lib64/hw/power.exynos9810.so
 
-# Renderscript
--vendor/lib/libRSDriverArm.so
--vendor/lib64/libRSDriverArm.so
-
 # RIL - N770FXXU8FUL7
 vendor/etc/init/init.vendor.rilchip.rc|0f5f13a11c084db5dc0eb47bb693235a2273f91e
 vendor/etc/init/init.vendor.rilcommon.rc|eb3115e335457fdc95c854190ee6804e165718f2

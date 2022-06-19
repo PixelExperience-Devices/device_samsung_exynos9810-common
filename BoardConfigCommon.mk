@@ -79,6 +79,9 @@ TARGET_COPY_OUT_PRODUCT := system/product
 ## Fingerprint
 TARGET_SEC_FP_HAS_FINGERPRINT_GESTURES := true
 
+# Graphics
+USE_OPENGL_RENDERER := true
+
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 

@@ -58,24 +58,24 @@ vendor/firmware/vts.bin
 
 # Camera dependencies
 -vendor/lib/libSEF.quram.so
--vendor/lib/libacryl_plugin_slsi_hdr10.so|a7df15ea4a5c475fbc9eae6d230b2df0
+-vendor/lib/libacryl_plugin_slsi_hdr10.so|efa81724e401417cfad3506f8c6fd2c1
 -vendor/lib/libcnn.so
 -vendor/lib/libcsc.so
--vendor/lib/libgiantmscl.so|3cdf1ac51a07626f9b3a7c2da976ac75
+-vendor/lib/libgiantmscl.so|fbc8e97824fd4476f22e299b75d39756
 -vendor/lib/libhfd.so
 -vendor/lib/libhwjpeg.so
 -vendor/lib/libsensorlistener.so
--vendor/lib/libstagefrighthw.so|96b40151969971f456630fdfe30291be
+-vendor/lib/libstagefrighthw.so|35aaf824f9b9a6c885e090c16444a86f
 -vendor/lib/libuniapi.so
 -vendor/lib/libuniplugin.so
 -vendor/lib/libvkmanager_vendor.so
 -vendor/lib64/libSEF.quram.so
--vendor/lib64/libacryl_plugin_slsi_hdr10.so|610a36578ccf039855624bb15b35378f
+-vendor/lib64/libacryl_plugin_slsi_hdr10.so|25d60501fe20b9add54e20b218b15365
 -vendor/lib64/libcsc.so
--vendor/lib64/libgiantmscl.so|87b5ec32f46b196867c32d399ab1bb91
+-vendor/lib64/libgiantmscl.so|bee49bab0d1d26f2a90bed25f48ecf83
 -vendor/lib64/libhwjpeg.so
 -vendor/lib64/libsensorlistener.so
--vendor/lib64/libstagefrighthw.so|995b4404c44afed44afd34061b0cbde4
+-vendor/lib64/libstagefrighthw.so|3f19493241c30d9edfb04fea85a594b1
 -vendor/lib64/libuniapi.so
 -vendor/lib64/libuniplugin.so
 -vendor/lib64/libvkmanager_vendor.so
@@ -122,8 +122,8 @@ vendor/etc/media_profiles_V1_0.xml
 -vendor/lib64/hw/gatekeeper.exynos9810.so
 
 # Gralloc - N770FXXS7DUB1
--vendor/lib/hw/gralloc.exynos9810.so|652a81c3d1adaebb931f0880887d4602906f138a
--vendor/lib64/hw/gralloc.exynos9810.so|3e9de01ab93009e8cb6cc823271df1fe295a89d9
+-vendor/lib/hw/gralloc.exynos9810.so|78819a1261deff4862ca39a244d8e1bf
+-vendor/lib64/hw/gralloc.exynos9810.so|012cccf9d341e8c0851727e4998f77c5
 
 # GPS/GNSS
 -vendor/bin/hw/gpsd
@@ -153,8 +153,8 @@ vendor/lib64/libmalicore.bc
 -vendor/lib64/libgpudataproducer.so|89e0d2aa05d2fc47822a980e5946840ec66e9597
 
 # Ion - N770FXXS7DUB1
--vendor/lib/libion_exynos.so|3c572746de4a1c5503000ccab511b8da
--vendor/lib64/libion_exynos.so|3c572746de4a1c5503000ccab511b8da
+-vendor/lib/libion_exynos.so|b4ec36fd10f1be7a3fa48968f254e69f
+-vendor/lib64/libion_exynos.so|382e96e09fdc5b4537ca43a8c3eda362
 
 # Keymaster
 -vendor/lib64/hw/keystore.mdfpp.so
@@ -193,37 +193,37 @@ vendor/etc/init/mobicore.rc
 -vendor/lib64/libMcClient.so
 
 # OMX - N770FXXS7DUB1
--vendor/lib/libExynosOMX_Core.so|277638afb9a7b432d5bc15241f3294d5
--vendor/lib/libExynosOMX_Resourcemanager.so|79b2f12585455e2b1f1bce4a4fdfe142
--vendor/lib/libstagefright_omx_vendor.so|5dc848ce976524b1a3daf40826521a5c
--vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so|6f791dc2314e6f6083ddcfecbe422d39
--vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so|f02f8eb075e1d3f84f14dc62f2068531
--vendor/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so|384419c88dd5214775214c769ca45662
--vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so|4c9bca23e1030b4a275d7f60838f0923
--vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so|4fc171bbba8d12e4b98b163d702a951f
--vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so|529b69819ff949d9cdaf68a0c2fc06c1
--vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so|7a757717e03312bd63700e413c9a87ae
--vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so|77b445f7b82d9a3e59652d6b3a4ce077
--vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so|745dd4d9759f5a664e4eba91b1f67694
--vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so|61184b20f3a58fcfa79343e8d9e4ce28
--vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so|0b72263f5ddc5cf2f55a6fcd671c47d1
--vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so|5e189e84b965f7d2c14e679cb7f28635
--vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so|a617d39fa3ddf5d988a0042c61590f90
--vendor/lib64/libExynosOMX_Core.so|d127e014010117375179ce14e18ff78e
--vendor/lib64/libExynosOMX_Resourcemanager.so|19488e8719ae261c1ec50986c9be5bee
--vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so|7d6c9f8ba5c50ac07311abe7f3f14305
--vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so|8d14e7594f95056c29cf71c0a2be20e6
--vendor/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so|fda5a94e7275652431e0c35d74dd0e90
--vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so|fad23054c1bff719e204f2950987b651
--vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so|956c52fd8c50acac4014a9693d66ac2a
--vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so|4213472a2eaea352b3fe17cb0ceb7bc7
--vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so|c7ff57e8a2fd0db3f865441f308dfa6a
--vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so|f59440217228f590b6b9852ee9abaca0
--vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so|faa23740d51b3436f499b725db307bf0
--vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so|fa21a80aed4b22c78730d7608de0fc91
--vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so|a3f005851235f06396a4909ecd648a22
--vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so|0de7f842cce0b75c2a35eadb564fce45
--vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so|31adb769eae50154195cb939eadf5518
+-vendor/lib/libExynosOMX_Core.so|6dd4e1d0880571948c4697cfd7b32f90
+-vendor/lib/libExynosOMX_Resourcemanager.so|7c427342f2baf4673b14434fc03de9f8
+-vendor/lib/libstagefright_omx_vendor.so|ccf669ea75aa8bfd41b63ccd2e9c95ad
+-vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so|85d9bd9f565c07bd2c5fb0431d0281a4
+-vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so|f3b7e0d44142298835e783e11f3880a5
+-vendor/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so|5960e39286925a50b48cc30d2618eb94
+-vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so|f44255664185fd505472a61d47c3fa77
+-vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so|5e23dc1bb457c1d87dc4f91c9ffb4e68
+-vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so|08d09d48560f0d359c18d944e5effb3b
+-vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so|37114f3e159a5dc36d6921283b457525
+-vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so|c91811f11060ac16794e3df78adda98f
+-vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so|1f1d9904c6d0b66950501a6c87211f27
+-vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so|a9df74ad1eafc772122d6561ad0f8810
+-vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so|d977441bdc6dad68df84a3bab983fd2e
+-vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so|8e1dc6779f0ce3648081f7284b017f97
+-vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so|e892546b1b8922d83aaeceecdb39e845
+-vendor/lib64/libExynosOMX_Core.so|6e73fe66ebf340b7e03da71f5af279b7
+-vendor/lib64/libExynosOMX_Resourcemanager.so|710a17ad0c42167a56106a8ddf841e2d
+-vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so|380e6ea1d65fad4ca89f3f29fcffe4df
+-vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so|a06a153a9562d13c4e9f006b8483567b
+-vendor/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so|16651ef1a8dbb93ad86b3942bbc9e6b3
+-vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so|33dcc503e487183d88b02777a57c5c1f
+-vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so|f1d250656e27d01bd74ad22d7b22d042
+-vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so|0ce3f1a521f801a7453168b92174e743
+-vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so|81d5447fbc20f1e6619a31dd5cdc4771
+-vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so|390143bf744bbde53ecd628978746aeb
+-vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so|a3d74bae6e979da1e6691acd59af0b20
+-vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so|6b76654f34c06de495835e775cf3e566
+-vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so|8060c94e9262a6effe7c9a7bfbcddfdf
+-vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so|34989099d10c737204e01bfa8da466c4
+-vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so|19461cbac750a6ec0674e3edc266f731
 
 # Power
 -vendor/lib/hw/power.exynos9810.so
@@ -270,8 +270,8 @@ vendor/openvx/xml/_hifi_still_schedule.xml
 # Samsung SLSI HWC - N770FXXS7DUB1
 -vendor/lib/hw/hwcomposer.exynos9810.so|0fe6fcda72e549f0afb04863cbdf35420b71d914
 -vendor/lib/libExynosHWCService.so|96d7441a96ff38544a136ab34db0df5bb6288bb7
--vendor/lib/libGrallocWrapper.so|4eff4bbab8c50d0279d8d9145c6973857a16ce0e
--vendor/lib/libacryl.so|68a488fe097cda07c30b9fefe4724b76
+-vendor/lib/libGrallocWrapper.so|aa35df72178fa249a6fbab5700980d2e
+-vendor/lib/libacryl.so|8d88729095122797ca236da2f714b3a6
 -vendor/lib/libexynosdisplay.so|919a3989090ab4e090b3084d50a0d36dfff98f0c
 -vendor/lib/libexynosgscaler.so|a90fdc07682c3e8d59a28859a72dc0e24d6b65d1
 -vendor/lib/libexynosgraphicbuffer.so|db2af12c89805cb8a464ea17f458ead467a54cfa
@@ -280,8 +280,8 @@ vendor/openvx/xml/_hifi_still_schedule.xml
 -vendor/lib/libexynosv4l2.so|ca5ed48c1a47fbc67e75fa0ef441b96d206722b9
 -vendor/lib64/hw/hwcomposer.exynos9810.so|95c32a020b05e60c72e2238d09bc0f021372b206
 -vendor/lib64/libExynosHWCService.so|fd8b4a099ae085e2e29e5fa1ef8a23defd33e0b0
--vendor/lib64/libGrallocWrapper.so|b7480755d93b67919973f2b06b66a272127149b6
--vendor/lib64/libacryl.so|29d1edd7807e25a78bcb256615040d23
+-vendor/lib64/libGrallocWrapper.so|622ad3852f58c7730b54384bd3d6a3c3
+-vendor/lib64/libacryl.so|14d3ce0d2ac0cfb6db83fa63acc4fe94
 -vendor/lib64/libexynosdisplay.so|b2a8a4f8eff5c321f3fc469b47895e5b540256c2
 -vendor/lib64/libexynosgscaler.so|b68da39cc697a37a96b019d5012f7d0f10e28295
 -vendor/lib64/libexynosgraphicbuffer.so|73c6fc698f68210ac285596760e4a01f68833d88

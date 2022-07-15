@@ -28,11 +28,6 @@ dalvik.vm.lockprof.threshold=500
 ### FASTBOOTD
 ro.fastbootd.available=true
 
-### MEDIA
-debug.stagefright.ccodec=0
-debug.stagefright.omx_default_rank=0
-debug.stagefright.omx_default_rank.sw-audio=1
-
 ### Low RAM device
 ro.config.avoid_gfx_accel=true
 

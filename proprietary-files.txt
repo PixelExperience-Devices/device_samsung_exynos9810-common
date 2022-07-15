@@ -112,11 +112,6 @@ vendor/firmware/score/camera2/score_mc_dmb.bin
 # Charger Firmware
 vendor/firmware/mfc_fw.bin
 
-# Codecs
-vendor/etc/media_codecs.xml
-vendor/etc/media_codecs_performance.xml
-vendor/etc/media_profiles_V1_0.xml
-
 # Gatekeeper
 -vendor/lib/hw/gatekeeper.exynos9810.so
 -vendor/lib64/hw/gatekeeper.exynos9810.so

@@ -523,6 +523,10 @@ on post-fs-data
     chown clat clat /sys/kernel/clat/xlat_v4_addrs
   
 on boot
+# Hide SELinux state
+    chmod 0640 /sys/fs/selinux/enforce
+    chmod 0440 /sys/fs/selinux/policy
+
 # SSWAP
     write /proc/sys/vm/swappiness 100
 

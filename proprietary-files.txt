@@ -306,11 +306,11 @@ vendor/lib/hw/thermal.exynos9810.so
 vendor/lib64/hw/thermal.exynos9810.so
 
 # Widevine
--vendor/bin/hw/android.hardware.drm@1.2-service.widevine
--vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
-vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc
--vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
+-vendor/bin/hw/android.hardware.drm@1.4-service.widevine|525d8fe7ad48bafcd76fc7b74529ff5a
+-vendor/bin/vendor.samsung.hardware.security.widevine.keyprov@1.0-service|df00cca5ff29158d9b2299aa2cd613d5
+-vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|fcb16a824f0b0c0c76fd1ca4c991a577
+-vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov@1.0-service.rc|deecb4ccb5f3aeed99ea57c86d4c503f
+-vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so|2dd832d60973a3111e05eedff17c4fa0
 
 # Wi-Fi
 vendor/etc/init/wifi.rc

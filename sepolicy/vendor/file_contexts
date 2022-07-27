@@ -7,6 +7,9 @@
 # Camera
 /dev/m2m1shot_scaler0          u:object_r:m2m1shot_device:s0
 
+# Dolby
+/(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@1\.0-service                     u:object_r:hal_dms_default_exec:s0
+
 # Graphics
 /dev/g2d                       u:object_r:graphics_device:s0
 /dev/mali[0-9]                 u:object_r:gpu_device:s0

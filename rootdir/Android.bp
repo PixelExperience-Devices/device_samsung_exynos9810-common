@@ -1,0 +1,48 @@
+prebuilt_etc {
+    name: "fstab.samsungexynos9810",
+    src: "etc/fstab.samsungexynos9810",
+    required: ["fstab.ramdisk"],
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.baseband.rc",
+    src: "etc/init.baseband.rc",
+    relative_install_path: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.samsung.rc",
+    src: "etc/init.samsung.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.samsungexynos9810.rc",
+    src: "etc/init.samsungexynos9810.rc",
+    relative_install_path: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.samsungexynos9810.usb.rc",
+    src: "etc/init.samsungexynos9810.usb.rc",
+    relative_install_path: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "mobicore.rc",
+    src: "etc/mobicore.rc",
+    relative_install_path: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.samsungexynos9810.rc",
+    src: "etc/ueventd.rc",
+    filename: "ueventd.rc",
+    vendor: true,
+}

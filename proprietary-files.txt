@@ -124,8 +124,6 @@ vendor/firmware/mfc_fw.bin
 -vendor/bin/hw/gpsd
 -vendor/bin/hw/lhd
 -vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
-vendor/etc/gnss/gps.cer
-vendor/etc/gnss/gps.xml
 vendor/etc/init/init.gps.rc
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 vendor/etc/sensor/lhd.conf

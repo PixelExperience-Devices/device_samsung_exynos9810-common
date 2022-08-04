@@ -13,6 +13,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.gps.rc",
+    src: "etc/init.gps.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.samsung.rc",
     src: "etc/init.samsung.rc",
     relative_install_path: "init/hw",

@@ -124,6 +124,11 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0.vendor \
     android.hardware.gnss@2.1.vendor
 
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/configs/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
+    $(COMMON_PATH)/configs/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
+    $(COMMON_PATH)/configs/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf
+
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport \
@@ -277,6 +282,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.samsungexynos9810 \
     init.baseband.rc \
+    init.gps.rc \
     init.recovery.samsungexynos9810.rc \
     init.samsung.rc \
     init.samsungexynos9810.rc \

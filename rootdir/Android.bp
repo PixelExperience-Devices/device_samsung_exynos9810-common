@@ -13,6 +13,14 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.gps.samsungexynos9810.rc",
+    src: "etc/init.gps.rc",
+    filename: "init.gps.rc",
+    relative_install_path: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.samsung.rc",
     src: "etc/init.samsung.rc",
     relative_install_path: "init/hw",
@@ -34,6 +42,22 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.vendor.rilchip.samsungexynos9810.rc",
+    src: "etc/init.vendor.rilchip.rc",
+    filename: "init.vendor.rilchip.rc",
+    relative_install_path: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.vendor.rilcommon.samsungexynos9810.rc",
+    src: "etc/init.vendor.rilcommon.rc",
+    filename: "init.vendor.rilcommon.rc",
+    relative_install_path: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "mobicore.rc",
     src: "etc/mobicore.rc",
     relative_install_path: "init",
@@ -44,5 +68,21 @@ prebuilt_etc {
     name: "ueventd.samsungexynos9810.rc",
     src: "etc/ueventd.rc",
     filename: "ueventd.rc",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "wifi.samsungexynos9810.rc",
+    src: "etc/wifi.rc",
+    filename: "wifi.rc",
+    relative_install_path: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "wifi_brcm.samsungexynos9810.rc",
+    src: "etc/wifi_brcm.rc",
+    filename: "wifi_brcm.rc",
+    relative_install_path: "init",
     vendor: true,
 }

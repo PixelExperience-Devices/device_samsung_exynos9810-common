@@ -318,7 +318,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service.exynos9810
+    android.hardware.usb-service.exynos9810
 
 # Vibrator
 PRODUCT_PACKAGES += \

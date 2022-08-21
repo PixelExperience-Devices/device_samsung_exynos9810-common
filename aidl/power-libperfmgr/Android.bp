@@ -21,10 +21,10 @@ soong_namespace {
 }
 
 cc_binary {
-    name: "android.hardware.power-service.samsung-libperfmgr",
+    name: "android.hardware.power-service.exynos9810-libperfmgr",
     relative_install_path: "hw",
-    init_rc: ["android.hardware.power-service.samsung-libperfmgr.rc"],
-    vintf_fragments: ["android.hardware.power-service.samsung.xml"],
+    init_rc: ["android.hardware.power-service.exynos9810-libperfmgr.rc"],
+    vintf_fragments: ["android.hardware.power-service.exynos9810.xml"],
     vendor: true,
     shared_libs: [
         "android.hardware.power-V2-ndk_platform",

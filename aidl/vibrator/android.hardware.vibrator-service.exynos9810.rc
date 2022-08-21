@@ -3,7 +3,7 @@ on init
     chown system system /sys/class/timed_output/vibrator/enable
     chown system system /sys/class/timed_output/vibrator/intensity
 
-service vendor.vibrator-default /vendor/bin/hw/android.hardware.vibrator-service.samsung
+service vendor.vibrator-default /vendor/bin/hw/android.hardware.vibrator-service.exynos9810
     class hal
     user system
     group system

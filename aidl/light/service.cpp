@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "android.hardware.light-service.samsung"
+#define LOG_TAG "android.hardware.light-service.exynos9810"
 
 #include "Lights.h"
 

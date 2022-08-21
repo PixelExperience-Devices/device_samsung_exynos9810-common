@@ -105,7 +105,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.samsung
+    android.hardware.biometrics.fingerprint@2.3-service.exynos9810
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -148,7 +148,7 @@ $(call inherit-product-if-exists, vendor/lawnicons/overlay.mk)
 
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.samsung
+    android.hardware.light-service.exynos9810
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -234,7 +234,7 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0.vendor \
-    android.hardware.power-service.samsung-libperfmgr
+    android.hardware.power-service.exynos9810-libperfmgr
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json \
@@ -283,7 +283,7 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0.vendor:64 \
-    android.hardware.sensors@2.1-service.samsung-multihal \
+    android.hardware.sensors@2.1-service.exynos9810-multihal \
     libsensorndkbridge
 
 # Shims
@@ -318,11 +318,11 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service.samsung
+    android.hardware.usb@1.3-service.exynos9810
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.samsung
+    android.hardware.vibrator-service.exynos9810
 
 # Wi-Fi
 PRODUCT_PACKAGES += \

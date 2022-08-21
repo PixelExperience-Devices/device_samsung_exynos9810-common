@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.usb@1.3-service.samsung"
+#define LOG_TAG "android.hardware.usb@1.3-service.exynos9810"
 
 #include <hidl/HidlTransportSupport.h>
 #include "Usb.h"

@@ -1,4 +1,4 @@
-service vendor.power-hal-aidl /vendor/bin/hw/android.hardware.power-service.samsung-libperfmgr
+service vendor.power-hal-aidl /vendor/bin/hw/android.hardware.power-service.exynos9810-libperfmgr
     class hal
     user root
     group system radio

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.power-service.samsung.ext-libperfmgr"
+#define LOG_TAG "android.hardware.power-service.exynos9810.ext-libperfmgr"
 
 #include "PowerExt.h"
 #include "PowerSessionManager.h"

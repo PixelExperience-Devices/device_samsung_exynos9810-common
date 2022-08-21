@@ -263,25 +263,29 @@ vendor/openvx/cost/cost_score.dat
 vendor/openvx/xml/_hifi_still_schedule.xml
 
 # Samsung SLSI HWC - N770FXXS7DUB1
--vendor/lib/hw/hwcomposer.exynos9810.so|0fe6fcda72e549f0afb04863cbdf35420b71d914
--vendor/lib/libExynosHWCService.so|96d7441a96ff38544a136ab34db0df5bb6288bb7
+-vendor/lib/hw/hwcomposer.exynos9810.so|73e463d71a96c034dfcba3428bb774b9
+-vendor/lib/libExynosHWCService.so|2900bcab8831321efb229c49180a7628
 -vendor/lib/libGrallocWrapper.so|aa35df72178fa249a6fbab5700980d2e
 -vendor/lib/libacryl.so|8d88729095122797ca236da2f714b3a6
--vendor/lib/libexynosdisplay.so|919a3989090ab4e090b3084d50a0d36dfff98f0c
--vendor/lib/libexynosgscaler.so|a90fdc07682c3e8d59a28859a72dc0e24d6b65d1
--vendor/lib/libexynosgraphicbuffer.so|db2af12c89805cb8a464ea17f458ead467a54cfa
--vendor/lib/libexynosscaler.so|93b2cc9c87f00eb84f06d1ee06e8ef67a50b5772
--vendor/lib/libexynosutils.so|a90530792e1770ece7fa44f93e93718b793e684e
+-vendor/lib/libdrm.so|b007d52ea900b1cd486e4f4ab3773dd2
+-vendor/lib/libdrmresource.so|89b5ad323d2f77512ae0c7bd4fac1661
+-vendor/lib/libexynosdisplay.so|425a0ae03ff5050098b6be9d3c5a316f
+-vendor/lib/libexynosgscaler.so|2ebf8fa0fdf6013f69e949928c8ae0f6
+-vendor/lib/libexynosgraphicbuffer.so|b807c5e1b4b06160bdbc9e4b8b36fdd8
+-vendor/lib/libexynosscaler.so|747ce7828362042b57f07b9e2e234555
+-vendor/lib/libexynosutils.so|da65d248a8255034d904744909e12f06
 -vendor/lib/libexynosv4l2.so|ca5ed48c1a47fbc67e75fa0ef441b96d206722b9
--vendor/lib64/hw/hwcomposer.exynos9810.so|95c32a020b05e60c72e2238d09bc0f021372b206
--vendor/lib64/libExynosHWCService.so|fd8b4a099ae085e2e29e5fa1ef8a23defd33e0b0
+-vendor/lib64/hw/hwcomposer.exynos9810.so|1b5d5b6bee0b1fd8f603edb3e9698507
+-vendor/lib64/libExynosHWCService.so|6b0c1ccee9ccc00c349fb9b9aeac3cd9
 -vendor/lib64/libGrallocWrapper.so|622ad3852f58c7730b54384bd3d6a3c3
 -vendor/lib64/libacryl.so|14d3ce0d2ac0cfb6db83fa63acc4fe94
--vendor/lib64/libexynosdisplay.so|b2a8a4f8eff5c321f3fc469b47895e5b540256c2
--vendor/lib64/libexynosgscaler.so|b68da39cc697a37a96b019d5012f7d0f10e28295
--vendor/lib64/libexynosgraphicbuffer.so|73c6fc698f68210ac285596760e4a01f68833d88
--vendor/lib64/libexynosscaler.so|efe530650d069f46e34a6caedb23f16207d4cf55
--vendor/lib64/libexynosutils.so|cfb9dc478b05c5b31964d702ce17d97765537a2c
+-vendor/lib64/libdrm.so|01b0a906fbd286a22931406568749332
+-vendor/lib64/libdrmresource.so|4a31bbfec97aed6ea4125e898f6863d3
+-vendor/lib64/libexynosdisplay.so|2b16c674a3a80274431dc8c51dea4bf6
+-vendor/lib64/libexynosgscaler.so|6c1bbf9d68071bfce8f1d586247f69e9
+-vendor/lib64/libexynosgraphicbuffer.so|6d9f792ecadcef91e55921e54634d711
+-vendor/lib64/libexynosscaler.so|aa7b88a4fb053a0df8c01e601a3246dd
+-vendor/lib64/libexynosutils.so|22d9235dfdef266294b294238be09911
 -vendor/lib64/libexynosv4l2.so|5f4f040e5ebd8a28914f55e70484657fcab89e2f
 -vendor/lib64/libmpp.so
 

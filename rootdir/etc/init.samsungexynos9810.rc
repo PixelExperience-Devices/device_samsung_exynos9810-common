@@ -1047,19 +1047,6 @@ service fuse_usb2 /system/bin/sdcard -u 1023 -g 1023 -d /mnt/media_rw/usb2 /stor
     class late_start
     disabled
 
-service abox /vendor/bin/main_abox 17c50000.abox /data/vendor/log/abox
-    class late_start
-    user audioserver
-    group system
-
-# ICD
-service prepare_param /system/bin/prepare_param.sh /dev/block/platform/11120000.ufs/by-name/PARAM
-    class core
-    user root
-    group root
-    seclabel u:r:prepare_param:s0
-    oneshot
-
 # Set watchdog timer to 40 seconds and pet it every 10 seconds to get a 30 second margin
 service watchdogd  /system/bin/watchdogd 10 30
     class core
@@ -1088,13 +1075,6 @@ service umount_service /system/bin/umount -D /preload
     seclabel u:r:umount_service:s0
     oneshot
 
-# sem_daemon
-service sem_daemon /system/bin/sem_daemon
-    class core
-    user system
-    group system nfc
-    disabled
-
 on property:sys.boot_completed=1
     setprop security.semdaemonfinish 0
     start sem_daemon
@@ -1109,18 +1089,6 @@ on property:persist.sys.storage_preload=1
 
 on property:persist.sys.storage_preload=0
     start umount_service
-
-# irisd
-    service irisd /system/bin/irisd
-    class late_start
-    user system
-    group system
-
-# faced
-    service faced /system/bin/faced
-    class late_start
-    user system
-    group system
 
 # SSWAP
 service swapon /sbin/sswap -s -f 2048

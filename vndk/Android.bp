@@ -1,0 +1,19 @@
+cc_prebuilt_library_shared {
+	name: "libutils-v32",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["lib/libutils-v32.so"],
+		},
+		android_arm64: {
+			srcs: ["lib64/libutils-v32.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}

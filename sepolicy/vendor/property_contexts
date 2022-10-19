@@ -11,5 +11,5 @@ sys.mobicoredaemon.enable      u:object_r:tee_prop:s0
 ro.fastbootd.available         u:object_r:exported_default_prop:s0
 
 # Hwc
-hwc.exynos.vsync_mode          u:object_r:vendor_hwc_prop:s0
+hwc.exynos.                    u:object_r:vendor_hwc_prop:s0
 ro.vendor.winupdate            u:object_r:vendor_hwc_prop:s0

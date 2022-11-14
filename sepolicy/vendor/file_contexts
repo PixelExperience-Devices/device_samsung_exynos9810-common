@@ -30,7 +30,7 @@
 /sys/devices/virtual/camera/rear/ssrm_camera_info        u:object_r:sysfs_camera_writable:s0
 
 # Extcon
-/sys/devices/platform/(.*)/extcon/extcon0/cable.0/name        u:object_r:sysfs_extcon:s0
+/sys/devices/platform/(.*)/extcon/extcon[0-9]/cable.[0-9]/name        u:object_r:sysfs_extcon:s0
 
 # Sensors
 /sys/devices/platform/13ac0000.spi(/.*)                  u:object_r:sysfs_iio:s0

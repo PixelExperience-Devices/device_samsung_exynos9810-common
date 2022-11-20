@@ -74,6 +74,7 @@ ro.soc.model "Exynos 9810"
 ### SURFACEFLINGER
 debug.sf.recomputecrop=0
 debug.sf.disable_client_composition_cache=1
+debug.sf.enable_gl_backpressure=1
 
 ### GRAPHICS
 

@@ -140,9 +140,9 @@ vendor/etc/sensor/lhd.conf
 -vendor/lib64/egl/libGLES_mali.so|0b62cb03c7dff83aa8f41451d7ff2ff8
 -vendor/lib64/libgpudataproducer.so|8820663f138978add20a97b36374cc71
 
-# Ion - N770FXXS7DUB1
--vendor/lib/libion_exynos.so|b4ec36fd10f1be7a3fa48968f254e69f
--vendor/lib64/libion_exynos.so|382e96e09fdc5b4537ca43a8c3eda362
+# Ion - N770FXXU8HVK5
+-vendor/lib/libion_exynos.so|c64c83c8826236c9264c8f2708756ea8
+-vendor/lib64/libion_exynos.so|ffc020ec8133431df5e1fcfefa80a34b
 
 # Keymaster
 -vendor/lib64/hw/keystore.mdfpp.so

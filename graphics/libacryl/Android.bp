@@ -1,0 +1,6 @@
+cc_library_headers {
+    name: "libacryl_hdrplugin_headers",
+    proprietary: true,
+    local_include_dirs: ["local_include"],
+    export_include_dirs: ["hdrplugin_headers", "local_include"],
+}

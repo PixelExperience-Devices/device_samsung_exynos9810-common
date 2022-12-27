@@ -30,7 +30,6 @@ LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)/include
 
 LOCAL_SRC_FILES := \
     acrylic.cpp \
-    acrylic_dummy.cpp \
     acrylic_g2d.cpp \
     acrylic_mscl9810.cpp \
     acrylic_g2d9810.cpp \

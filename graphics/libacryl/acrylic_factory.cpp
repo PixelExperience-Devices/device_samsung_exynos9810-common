@@ -25,7 +25,6 @@
 #include "acrylic_g2d.h"
 #include "acrylic_g2d9810.h"
 #include "acrylic_mscl9810.h"
-#include "acrylic_dummy.h"
 
 static uint32_t all_fimg2d_formats[] = {
     HAL_PIXEL_FORMAT_RGBA_8888,
@@ -553,8 +552,6 @@ Acrylic *Acrylic::createInstance(const char *spec)
         compositor = new AcrylicCompositorMSCL9810(capability_mscl_sbwc);
     } else if (strcmp(spec, "mscl_sbwcl") == 0) {
         compositor = new AcrylicCompositorMSCL9810(capability_mscl_sbwcl);
-    } else if (strcmp(spec, "dummy") == 0) {
-        compositor = new AcrylicCompositorDummy(capability_fimg2d_8895);
     } else {
         ALOGE("Unknown HW2D compositor spec., %s", spec);
         return NULL;

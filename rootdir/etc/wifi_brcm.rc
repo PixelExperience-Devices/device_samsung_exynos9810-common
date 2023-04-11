@@ -33,6 +33,3 @@ on boot
     # for fwpath
     chown wifi wifi /sys/module/dhd/parameters/firmware_path
     chown wifi wifi /sys/module/dhd/parameters/nvram_path
-
-on property:vold.decrypt=trigger_restart_framework
-exec - wifi wifi -- /system/vendor/bin/hw/macloader
